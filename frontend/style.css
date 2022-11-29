@@ -13,18 +13,9 @@ body {
     background-size: cover;
     position: relative;
 }
-
-header img {
+header img{
     width: 10%;
 }
-
-header span {
-    color: white;
-    font-family: monospace;
-    font-size: 20px;
-    font-weight: bold;
-}
-
 header {
     background-color: #171615;
     display: flex;
@@ -62,15 +53,6 @@ main {
     white-space: nowrap;
 }
 
-#connectWalletBtn:hover {
-    background-color: #339A82;
-    color: white;
-}
-
-#connectWalletBtn:active {
-    opacity: 0.7;
-}
-
 .input-box {
     display: flex;
     flex-wrap: wrap;
@@ -81,15 +63,6 @@ main {
 
 .input-box img {
     width: 100%;
-
-}
-
-.number {
-    text-align: center;
-}
-
-#inputNumberBox {
-    padding: 20px;
 
 }
 
@@ -104,7 +77,7 @@ main {
 }
 
 #register-btn {
-    background-color: #899491;
+    background-color: rgba(255, 255, 255, 0.427);
     cursor: pointer;
     color: #0F1E2D;
     border-radius: 7px;
@@ -119,6 +92,11 @@ main {
     background-color: #339A82;
     color: white;
 }
-#register-btn:active{
-    opacity:0.7;
+
+#img {
+    background-color: rgba(255, 255, 255, 0.427);
+    fill-opacity: 50%;
+    border-radius: 10px;
+    padding: 15px;
+
 }
