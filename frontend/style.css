@@ -119,3 +119,6 @@ main {
     background-color: #339A82;
     color: white;
 }
+#register-btn:active{
+    opacity:0.7;
+}
