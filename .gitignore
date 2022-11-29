@@ -1,5 +1,6 @@
-build
-.secret
-.env
-./vscode
+gi
 node_modules
+t 
+.vscode
+.env
+.secret

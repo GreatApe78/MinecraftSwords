@@ -1,0 +1,16 @@
+{
+    "name": "Diamond Sword",
+    "description": "This is a diamond sword from Minecraft.",
+    "image": "ipfs://QmW7oKPMAk8J757Fm5hBv2Ep9SL7eP31A6faMxHuw28iR9/4.png",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Diamond"
+      },
+      {
+        "trait_type": "Rarity",
+        "value": "Super-Rare"
+      }
+    ],
+    "compiler": "HashLips Art Engine - Tokenaim fork"
+  }

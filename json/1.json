@@ -1,0 +1,16 @@
+{
+    "name": "Stone Sword",
+    "description": "This is a stone sword from Minecraft.",
+    "image": "ipfs://QmW7oKPMAk8J757Fm5hBv2Ep9SL7eP31A6faMxHuw28iR9/1.png",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Stone"
+      },
+      {
+        "trait_type": "Rarity",
+        "value": "Little-Rare"
+      }
+    ],
+    "compiler": "HashLips Art Engine - Tokenaim fork"
+  }

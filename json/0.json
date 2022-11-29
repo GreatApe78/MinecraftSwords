@@ -1,0 +1,16 @@
+{
+    "name": "Wood Sword",
+    "description": "This is a wood sword from Minecraft.",
+    "image": "ipfs://QmW7oKPMAk8J757Fm5hBv2Ep9SL7eP31A6faMxHuw28iR9/0.png",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Wood"
+      },
+      {
+        "trait_type": "Rarity",
+        "value": "Non-Rare"
+      }
+    ],
+    "compiler": "HashLips Art Engine - Tokenaim fork"
+  }

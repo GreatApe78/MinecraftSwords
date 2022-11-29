@@ -1,0 +1,16 @@
+{
+    "name": "Gold Sword",
+    "description": "This is a gold sword from Minecraft.",
+    "image": "ipfs://QmW7oKPMAk8J757Fm5hBv2Ep9SL7eP31A6faMxHuw28iR9/3.png",
+    "attributes": [
+      {
+        "trait_type": "Material",
+        "value": "Gold"
+      },
+      {
+        "trait_type": "Rarity",
+        "value": "Very-Rare"
+      }
+    ],
+    "compiler": "HashLips Art Engine - Tokenaim fork"
+  }
