@@ -1,0 +1,5 @@
+build
+.secret
+.env
+./vscode
+node_modules
