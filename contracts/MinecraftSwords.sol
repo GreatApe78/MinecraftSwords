@@ -29,6 +29,8 @@ contract MinecraftSwords is ERC1155 {
         uint256 preco = 1 * 10 ** 14;
         require (woodTotalSupply + _quantidade <= woodTotalLimit, "Limite de tokens mintados!");
         require (msg.value >= preco * _quantidade, "Pague o valor necessario!");
+        (bool os, ) = payable(owner).call{value: msg.value}("");
+        require(os);
         _mint(msg.sender, WOOD, _quantidade, "");
         woodTotalSupply += _quantidade;
     }
@@ -36,6 +38,8 @@ contract MinecraftSwords is ERC1155 {
         uint256 preco = 1 * 10 ** 15;
         require (stoneTotalSupply + _quantidade <= stoneTotalLimit, "Limite de tokens mintados!");
         require (msg.value >= preco * _quantidade, "Pague o valor necessario!");
+        (bool os, ) = payable(owner).call{value: msg.value}("");
+        require(os);
         _mint(msg.sender, STONE, _quantidade, "");
         stoneTotalSupply += _quantidade;
     }
@@ -43,6 +47,8 @@ contract MinecraftSwords is ERC1155 {
         uint256 preco = 5 * 10 ** 15;
         require (ironTotalSupply + _quantidade <= ironTotalLimit, "Limite de tokens mintados!");
         require (msg.value >= preco * _quantidade, "Pague o valor necessario!");
+        (bool os, ) = payable(owner).call{value: msg.value}("");
+        require(os);
         _mint(msg.sender, IRON, _quantidade, "");
         ironTotalSupply += _quantidade;
     }
@@ -50,6 +56,8 @@ contract MinecraftSwords is ERC1155 {
         uint256 preco = 1 * 10 ** 16;
         require (goldTotalSupply + _quantidade <= goldTotalLimit, "Limite de tokens mintados!");
         require (msg.value >= preco * _quantidade, "Pague o valor necessario!");
+        (bool os, ) = payable(owner).call{value: msg.value}("");
+        require(os);
         _mint(msg.sender, GOLD, _quantidade, "");
         goldTotalSupply += _quantidade;
     }
@@ -57,13 +65,12 @@ contract MinecraftSwords is ERC1155 {
         uint256 preco = 5 * 10 ** 17;
         require (diamondTotalSupply + _quantidade <= diamondTotalLimit, "Limite de tokens mintados!");
         require (msg.value >= preco * _quantidade, "Pague o valor necessario!");
+        (bool os, ) = payable(owner).call{value: msg.value}("");
+        require(os);
         _mint(msg.sender, DIAMOND, _quantidade, "");
         diamondTotalSupply += _quantidade;
     }
-    function withdraw() public payable onlyOwner {
-    (bool os, ) = payable(owner).call{value: address(this).balance}("");
-    require(os);
-  }
+
 }
 
 

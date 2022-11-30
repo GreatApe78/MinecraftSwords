@@ -664,7 +664,7 @@ async function setQnt(){
     qtdDiamond.innerHTML = qtddDiamond;
 }
 
-window.onload = setQnt();
+setQnt();
 
 async function connectWallet(){
     if(ethereum){
